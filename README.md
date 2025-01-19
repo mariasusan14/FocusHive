@@ -1,25 +1,25 @@
 
 
 
-#FocusHive
+# FocusHive
 Web app that tracks stored notes summaries and analytics.
 
-###ytweb
+### ytweb
 ytweb is a web application built to display YouTube analytics for users, helping them track their video history, time spent, and more.
 
-###Features
+### Features
 YouTube Analytics: Displays daily time spent on YouTube, video history for a selected day, and detailed weekly/monthly analysis.
-###Tech Stack
--[Frontend]: React, HTML, CSS
--Backend: Node.js (Express)
--Authentication: Google OAuth
--Version Control: Git, GitHub
-##Getting Started
-###Prerequisites
--Node.js and npm (or yarn)
--A Google Cloud project with OAuth credentials for authentication
-###Setup Instructions
-Clone the repository:
+### Tech Stack
+- `Frontend`: React, HTML, CSS
+- `Backend`: Node.js (Express)
+- `Authentication`: Google OAuth
+- `Version Control`: Git, GitHub
+## Getting Started
+### Prerequisites
+- Node.js and npm (or yarn)
+- A Google Cloud project with OAuth credentials for authentication
+### Setup Instructions
+- Clone the repository:
 
 Open your terminal and run the following command:
 
@@ -27,19 +27,25 @@ Open your terminal and run the following command:
 git clone https://github.com/MaheswariDarish/ytweb.git
 cd youtubeweb
 ```
-###Client
+### Client
 ```
 cd client
 npm run dev
 ```
-###Install dependencies:
+something like this will show up
+```
+> client@0.0.0 dev
+> vite
+```
+
+### Install dependencies:
 
 Install all required dependencies by running:
 
 ```
 npm install
 ```
--Setup the .env file:
+- Setup the .env file:
 
 Create a .env file in the root directory.
 

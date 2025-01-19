@@ -1,0 +1,82 @@
+/* SignIn.css */
+
+/* Full page background with gradient */
+.sign-in-page {
+    height: 100vh;
+    background: #192524; /* Vibrant gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    
+    
+  }
+  
+  /* Card styling for the sign-in box */
+  .sign-in-box {
+    padding: 50px 60px;
+    background-color: rgba(251, 251, 251, 0.92); /* Semi-transparent dark background */
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgb(0, 0, 0);
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+  }
+  
+  /* Title */
+  .sign-in-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #510963;
+    margin-bottom: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    
+  }
+  
+  /* Subtitle */
+  .sign-in-subtitle {
+    font-size: 18px;
+    color: #060404;
+    margin-bottom: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  
+  /* Sign-in button styling */
+  .sign-in-button {
+    padding: 14px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #7a6ae1; /* Google sign-in blue */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+  }
+  
+  .sign-in-button:hover {
+    background-color: #8d319b;
+    transform: scale(1.05); /* Slight hover effect */
+  }
+  
+  /* Footer text styling */
+  .sign-in-footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #040303;
+  }
+  
+  .sign-in-footer-link {
+    color: #120a0a;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .sign-in-footer-link:hover {
+    color: #a4a4a4;
+  }
+  

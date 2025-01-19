@@ -1,0 +1,74 @@
+/* Sidebar container */
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: #192524;
+    width: 250px;
+    left: 0px;
+    position: fixed;
+    height: 100vh;
+    top:0;
+}
+.head{
+    color:whitesmoke;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+/* Menu Item (icon + text) */
+.menu-item {
+    display: flex;
+    align-items: center;   /* Align icon and text horizontally */
+    margin-bottom: 16px;    /* Space between items */
+    cursor: pointer;       /* Indicate it’s clickable */
+    padding: 8px;
+    border-radius: 8px;     /* Rounded corners for hover effect */
+    transition: background-color 0.3s;
+}
+
+
+.menu-icon {
+    font-size: 24px;  /* Icon size */
+    margin-right: 8px; /* Space between icon and text */
+    color: #bfb2b9;    /* Icon color */
+}
+
+/* Text styling */
+.menu-text {
+    font-size: 18px;
+    margin: 0;
+    color:  #bfb2b9;  /* Text color */
+}
+.menu-text:hover{
+    color: #3f3c3e;
+}
+/* Hover effect */
+.menu-item:hover {
+    background-color: #fefdfd; 
+    
+}
+.menu-item:hover .menu-text {
+    color: #3f3c3e;
+    
+}
+
+/* Profile Section */
+.Profile {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color:  #f8eef3;
+    cursor: pointer;
+    background-color: #433c3e;
+    border-radius: 8px;
+    margin-top: auto;
+    margin-bottom: 30px;
+    padding: 16px;
+    text-align: center;
+}
+.Profile:hover{
+    background-color: #ffffff;
+    color: black;
+}

@@ -10,7 +10,7 @@ ytweb is a web application built to display YouTube analytics for users, helping
 ###Features
 YouTube Analytics: Displays daily time spent on YouTube, video history for a selected day, and detailed weekly/monthly analysis.
 ###Tech Stack
--Frontend: React, HTML, CSS
+-[Frontend]: React, HTML, CSS
 -Backend: Node.js (Express)
 -Authentication: Google OAuth
 -Version Control: Git, GitHub
@@ -23,39 +23,38 @@ Clone the repository:
 
 Open your terminal and run the following command:
 
-'''
+```
 git clone https://github.com/MaheswariDarish/ytweb.git
 cd youtubeweb
-'''
+```
 ###Client
-'''
+```
 cd client
 npm run dev
-'''
+```
 ###Install dependencies:
 
 Install all required dependencies by running:
 
-'''
+```
 npm install
-'''
+```
 -Setup the .env file:
 
 Create a .env file in the root directory.
 
 Add your Google OAuth credentials:
-
-'''
+```
 GOOGLE_CLIENT_ID=<your-client-id>
 GOOGLE_CLIENT_SECRET=<your-client-secret>
-'''
+```
 Run the development server:
 
 Start the development server:
-'''
+```
 cd server
 npm start
-'''
+```
 Open your browser and navigate to http://localhost:3000 to view the application.
 
 
